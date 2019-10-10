@@ -1,4 +1,4 @@
-
+# 2019-07
 # GTM USER DEFINED VARIABLES FOR DATA LAYER
 
 # 'Data Layer Variable' created in GTM:
