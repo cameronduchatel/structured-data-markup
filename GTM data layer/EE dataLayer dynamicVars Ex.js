@@ -1,5 +1,7 @@
+// SOURCE: https://www.youtube.com/watch?v=3G5wvjC1rHo&list=PLgr_8Hk8l4ZH2XxKgEDjgqPiSLnq7XdP7
 
 // MEASURE SCHOOL ENHANCE ECOMMERCE DATALAYER EXAMPLE
+// ***transaction tracking, not full Enhanced Ecomerce Tracking***
 
 // hard-coded variables (sent to developer)
 
