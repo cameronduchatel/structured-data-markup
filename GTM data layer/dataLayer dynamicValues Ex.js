@@ -1,4 +1,6 @@
 
+// SOURCE: https://stackoverflow.com/questions/49975366/how-to-send-dynamic-values-in-datalayer-push-method/49978183
+
 // EXAMPLE - sending eCommerce booking data to GTM
 
 // Need to create the array first and then send all of the data together i.e. item name, code, price, total price
