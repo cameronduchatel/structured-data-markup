@@ -1,0 +1,49 @@
+// example client: riversands wines
+// example event: good food & wine brisbane
+
+<script>
+(function(){
+	var jsondata = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Join Riversands Wines at the Brisbane Good Food and Wine Show!",
+  "startDate": "2019-10-25T09:00",
+  "endDate": "2019-10-27T17:00",
+  "location": {
+    "@type": "Place",
+    "name": "Brisbane Convention & Exhibition Centre South Brisbane",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Glenelg Street",
+      "addressLocality": "South Brisbane",
+      "postalCode": "4101",
+      "addressRegion": "QLD",
+      "addressCountry": "AU"
+    }
+  },
+  "image": [
+    "https://www.riversandswines.com/sites/default/files/imagecache/article_full/uploaded-content/field_f_content_image/good_food_and_wine_hamper.jpg",
+    "https://www.riversandswines.com/sites/default/files/uploaded-content/website-content/new_project_1.jpg"
+   ],
+  "description": "Wine tasting new releases, competition for gift hamper, freight deal, and meet the artist behind our Riversands Wines new Sparkling design.",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.riversandswines.com/events/join-riversands-wines-brisbane-good-food-and-wine-show",
+    "price": "0.00",
+    "priceCurrency": "AUD",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2019-10-27T17:00"
+  },
+  "performer": {
+    "@type": "PerformingGroup",
+    "name": "Rosie Jones"
+  }
+};
+
+var el = document.createElement ('script');
+el.type = 'application/ld+json';
+el.innerHTML = JSON.stringify(jsondata);
+document.head.appendChild(el);
+}) ();
+
+</script> 
