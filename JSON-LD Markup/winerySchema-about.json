@@ -1,0 +1,43 @@
+// Source: https://schema.org/Winery
+// Markup for winery sites - all pages
+// Example: Jim Barry Wines
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "Winery",
+    "TouristAttraction"],
+  "name": "Jim Barry Wines",
+  "description": "It was Jim Barry’s drive and community spirit that helped shape South Australia’s Clare Valley as a benchmark producer of world class Riesling and cemented its place as one of Australia’s premier wine regions.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "AU",
+    "addressRegion": "South Australia",
+    "addressLocality": "Clare Valley",
+    "postalCode": "5453",
+    "streetAddress": "33 Craig Hill Road"
+  },
+  "publicAccess": true,
+  "availableLanguage":[
+    "English"
+  ],
+  "openingHours": [
+    "Mo-Fr 09:00-17:00",
+    "Sa-Su 09:30-16:00"
+  ],
+  "touristType": [
+    "Wine tourism",
+    "Cultural tourism"
+  ],
+
+  "priceRange": "19.00-325.00",
+  "servesCuisine": [
+    "Wine Tastings"
+  ],
+  "telephone": ["+610888422261"],
+  "sameAs": "https://www.jimbarry.com",
+  "email": "communications@jimbarry.com",
+  "image": "https://www.jimbarry.com/dist/logos/email/logo.png"
+}
+</script>
